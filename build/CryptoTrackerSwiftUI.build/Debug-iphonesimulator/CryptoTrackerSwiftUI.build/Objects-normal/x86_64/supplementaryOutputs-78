@@ -1,0 +1,35 @@
+"/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Extensions/PreviewProvider.swift":
+  object: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/PreviewProvider.o"
+  swift-dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/PreviewProvider.swiftdeps"
+  dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/PreviewProvider.d"
+  diagnostics: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/PreviewProvider.dia"
+"/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Core/Home/Views/HomeView.swift":
+  swift-dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/HomeView.swiftdeps"
+  dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/HomeView.d"
+  diagnostics: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/HomeView.dia"
+  object: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/HomeView.o"
+"/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Services/MaketDataService.swift":
+  dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/MaketDataService.d"
+  swift-dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/MaketDataService.swiftdeps"
+  object: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/MaketDataService.o"
+  diagnostics: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/MaketDataService.dia"
+"/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Components/XMarkButton.swift":
+  dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/XMarkButton.d"
+  object: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/XMarkButton.o"
+  diagnostics: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/XMarkButton.dia"
+  swift-dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/XMarkButton.swiftdeps"
+"/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Extensions/Double.swift":
+  swift-dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/Double.swiftdeps"
+  dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/Double.d"
+  object: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/Double.o"
+  diagnostics: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/Double.dia"
+"/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Services/CoinImageService.swift":
+  diagnostics: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/CoinImageService.dia"
+  object: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/CoinImageService.o"
+  dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/CoinImageService.d"
+  swift-dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/CoinImageService.swiftdeps"
+"/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Utilities/NetworkingManager.swift":
+  diagnostics: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/NetworkingManager.dia"
+  dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/NetworkingManager.d"
+  swift-dependencies: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/NetworkingManager.swiftdeps"
+  object: "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/build/CryptoTrackerSwiftUI.build/Debug-iphonesimulator/CryptoTrackerSwiftUI.build/Objects-normal/x86_64/NetworkingManager.o"

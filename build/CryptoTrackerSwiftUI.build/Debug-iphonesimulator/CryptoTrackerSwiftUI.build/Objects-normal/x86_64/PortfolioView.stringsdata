@@ -1,0 +1,28 @@
+{
+  "source": "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Core/Portfolio/Views/PortfolioView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Edit Portfolio"
+      },
+      {
+        "comment": "",
+        "key": "Current price of %@:"
+      },
+      {
+        "comment": "",
+        "key": "Amount holding:"
+      },
+      {
+        "comment": "",
+        "key": "Ex: 1.4"
+      },
+      {
+        "comment": "",
+        "key": "Current Value:"
+      }
+    ]
+  },
+  "version": 1
+}

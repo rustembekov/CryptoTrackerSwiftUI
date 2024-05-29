@@ -1,0 +1,12 @@
+{
+  "source": "/Users/macbook/Desktop/demo/CryptoTrackerSwiftUI/CryptoTrackerSwiftUI/Components/SearchBarView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Search by name or symbol..."
+      }
+    ]
+  },
+  "version": 1
+}
