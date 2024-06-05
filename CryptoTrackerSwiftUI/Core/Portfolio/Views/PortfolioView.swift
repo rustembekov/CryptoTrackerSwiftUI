@@ -12,7 +12,8 @@ struct PortfolioView: View {
     @State private var selectedCoin: CoinModel?
     @State private var quantityText: String = ""
     @State private var showCheckMark: Bool = false
-    
+    @Environment(\.dismiss) var dismiss
+
     var body: some View {
         NavigationView(){
             ScrollView(){
@@ -27,7 +28,7 @@ struct PortfolioView: View {
             .navigationTitle("Edit Portfolio")
             .toolbar(content: {
                 ToolbarItem(placement: .navigationBarLeading){
-                    XMarkButton()
+                    XMarkButton(dismiss: _dismiss)
                 }
             })
             .toolbar(content: {
@@ -127,8 +128,25 @@ extension PortfolioView {
         .font(.headline)
     }
     private func saveButtonPressed(){
+        guard let coin = selectedCoin else { return}
         
+        withAnimation(.easeIn){
+            showCheckMark = true
+            removeSelectedCoin()
+        }
+        
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2){
+            withAnimation(.easeOut){
+                showCheckMark = false
+            }
+        }
     }
     
+    private func removeSelectedCoin(){
+        selectedCoin = nil
+        vm.searchText = ""
+    }
 }
     
