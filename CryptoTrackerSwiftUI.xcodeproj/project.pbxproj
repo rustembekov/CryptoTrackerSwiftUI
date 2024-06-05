@@ -22,7 +22,6 @@
 		FA18418B2C07A0D4004E8047 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1841612C07A0D3004E8047 /* StatisticModel.swift */; };
 		FA18418D2C07A0D4004E8047 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1841652C07A0D3004E8047 /* PreviewProvider.swift */; };
 		FA18418E2C07A0D4004E8047 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1841662C07A0D3004E8047 /* Double.swift */; };
-		FA18418F2C07A0D4004E8047 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1841672C07A0D3004E8047 /* Color.swift */; };
 		FA1841902C07A0D4004E8047 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1841692C07A0D3004E8047 /* LocalFileManager.swift */; };
 		FA1841912C07A0D4004E8047 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18416A2C07A0D3004E8047 /* NetworkingManager.swift */; };
 		FA1841922C07A0D4004E8047 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18416B2C07A0D3004E8047 /* UIApplication.swift */; };
@@ -34,7 +33,24 @@
 		FA18419B2C07A0D4004E8047 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1841782C07A0D3004E8047 /* CoinImageService.swift */; };
 		FA18419C2C07A0D4004E8047 /* MaketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1841792C07A0D3004E8047 /* MaketDataService.swift */; };
 		FA1841BA2C07BBE6004E8047 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1841B92C07BBE6004E8047 /* StatisticView.swift */; };
+		FA1AFA2A2C104BE500815389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA443AEB2C10399200123BE5 /* Assets.xcassets */; };
+		FA1AFA2D2C104C3600815389 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1841BD2C07BCE3004E8047 /* Preview Assets.xcassets */; };
+		FA4E5E102C0F92D90021B2D8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E5E0F2C0F92D90021B2D8 /* Color.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		FA1AFA272C10431500815389 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = image.png;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# copypng\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
 		FA18414D2C07A0D3004E8047 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -52,7 +68,6 @@
 		FA1841612C07A0D3004E8047 /* StatisticModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		FA1841652C07A0D3004E8047 /* PreviewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		FA1841662C07A0D3004E8047 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
-		FA1841672C07A0D3004E8047 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FA1841692C07A0D3004E8047 /* LocalFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		FA18416A2C07A0D3004E8047 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		FA18416B2C07A0D3004E8047 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -64,8 +79,9 @@
 		FA1841782C07A0D3004E8047 /* CoinImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		FA1841792C07A0D3004E8047 /* MaketDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaketDataService.swift; sourceTree = "<group>"; };
 		FA1841B92C07BBE6004E8047 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
-		FA1841BB2C07BCE3004E8047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CryptoTrackerSwiftUI/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		FA1841BD2C07BCE3004E8047 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA443AEB2C10399200123BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4E5E0F2C0F92D90021B2D8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FA6FBED72BD8189900004A91 /* CryptoTrackerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTrackerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,7 +106,7 @@
 				FA1841682C07A0D3004E8047 /* Utilities */,
 				FA18416C2C07A0D3004E8047 /* Components */,
 				FA1841762C07A0D3004E8047 /* Services */,
-				FA1841BB2C07BCE3004E8047 /* Assets.xcassets */,
+				FA443AEB2C10399200123BE5 /* Assets.xcassets */,
 				FA1841BC2C07BCE3004E8047 /* Preview Content */,
 			);
 			path = CryptoTrackerSwiftUI;
@@ -190,7 +206,7 @@
 			children = (
 				FA1841652C07A0D3004E8047 /* PreviewProvider.swift */,
 				FA1841662C07A0D3004E8047 /* Double.swift */,
-				FA1841672C07A0D3004E8047 /* Color.swift */,
+				FA4E5E0F2C0F92D90021B2D8 /* Color.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -270,8 +286,10 @@
 			buildPhases = (
 				FA6FBED32BD8189900004A91 /* Sources */,
 				FA6FBED42BD8189900004A91 /* Frameworks */,
+				FA1AFA292C104BD700815389 /* Resources */,
 			);
 			buildRules = (
+				FA1AFA272C10431500815389 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -313,6 +331,18 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		FA1AFA292C104BD700815389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1AFA2D2C104C3600815389 /* Preview Assets.xcassets in Resources */,
+				FA1AFA2A2C104BE500815389 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA6FBED32BD8189900004A91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -335,7 +365,7 @@
 				FA18417E2C07A0D4004E8047 /* HomeViewModel.swift in Sources */,
 				FA18419A2C07A0D4004E8047 /* CoinDataService.swift in Sources */,
 				FA1841BA2C07BBE6004E8047 /* StatisticView.swift in Sources */,
-				FA18418F2C07A0D4004E8047 /* Color.swift in Sources */,
+				FA4E5E102C0F92D90021B2D8 /* Color.swift in Sources */,
 				FA1841982C07A0D4004E8047 /* SearchBarView.swift in Sources */,
 				FA1841892C07A0D4004E8047 /* CoinModel.swift in Sources */,
 				FA1841942C07A0D4004E8047 /* CircleButtonAnimationView.swift in Sources */,
@@ -474,6 +504,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoTrackerSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 69CU444UTA;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
@@ -504,6 +535,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoTrackerSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 69CU444UTA;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
