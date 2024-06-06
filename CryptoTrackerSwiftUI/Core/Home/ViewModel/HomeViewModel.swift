@@ -16,6 +16,7 @@ class HomeViewModel : ObservableObject {
     
     private let coinDataService = CoinDataService()
     private let marketDataService = MarketDataService()
+    private let portfolioService = PortfolioService()
     private var cancellables = Set<AnyCancellable>()
     
     init(){
@@ -44,6 +45,9 @@ class HomeViewModel : ObservableObject {
                 self?.statistics = returnedStatistics
             }
             .store(in: &cancellables)
+        
+//        portfolioService.$storedEntities
+//            .map
             
     }
     
