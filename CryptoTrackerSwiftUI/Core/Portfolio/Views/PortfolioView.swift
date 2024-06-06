@@ -133,7 +133,12 @@ extension PortfolioView {
         .font(.headline)
     }
     private func saveButtonPressed(){
-        guard let coin = selectedCoin else { return}
+        guard
+            let coin = selectedCoin,
+            let amount = Double(quantityText)
+            else { return}
+        
+        vm.updatePortfolio(coin: coin, amount: amount)
         
         withAnimation(.easeIn){
             showCheckMark = true
