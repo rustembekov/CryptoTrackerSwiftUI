@@ -37,6 +37,7 @@
 		FA1AFA2D2C104C3600815389 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1841BD2C07BCE3004E8047 /* Preview Assets.xcassets */; };
 		FA1AFA302C10A7E100815389 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFA2E2C10A7E100815389 /* PortfolioContainer.xcdatamodeld */; };
 		FA1AFA322C10C90400815389 /* PortfolioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFA312C10C90400815389 /* PortfolioService.swift */; };
+		FA1AFA3D2C1330AA00815389 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFA3C2C1330A900815389 /* HapticManager.swift */; };
 		FA4E5E102C0F92D90021B2D8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E5E0F2C0F92D90021B2D8 /* Color.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		FA1841BD2C07BCE3004E8047 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA1AFA2F2C10A7E100815389 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		FA1AFA312C10C90400815389 /* PortfolioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioService.swift; sourceTree = "<group>"; };
+		FA1AFA3C2C1330A900815389 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		FA443AEB2C10399200123BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4E5E0F2C0F92D90021B2D8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FA6FBED72BD8189900004A91 /* CryptoTrackerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTrackerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +224,7 @@
 				FA1841692C07A0D3004E8047 /* LocalFileManager.swift */,
 				FA18416A2C07A0D3004E8047 /* NetworkingManager.swift */,
 				FA18416B2C07A0D3004E8047 /* UIApplication.swift */,
+				FA1AFA3C2C1330A900815389 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				FA18417F2C07A0D4004E8047 /* HomeView.swift in Sources */,
 				FA18419C2C07A0D4004E8047 /* MaketDataService.swift in Sources */,
 				FA18417E2C07A0D4004E8047 /* HomeViewModel.swift in Sources */,
+				FA1AFA3D2C1330AA00815389 /* HapticManager.swift in Sources */,
 				FA18419A2C07A0D4004E8047 /* CoinDataService.swift in Sources */,
 				FA1841BA2C07BBE6004E8047 /* StatisticView.swift in Sources */,
 				FA4E5E102C0F92D90021B2D8 /* Color.swift in Sources */,

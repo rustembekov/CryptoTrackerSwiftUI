@@ -62,6 +62,7 @@ class HomeViewModel : ObservableObject {
     }
     
     func reloadData() {
+        HapticManager.notification(type: .success)
         isLoading = true
         marketDataService.getData()
         coinDataService.getCoins()
