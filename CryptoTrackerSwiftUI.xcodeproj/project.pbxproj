@@ -38,6 +38,7 @@
 		FA1AFA302C10A7E100815389 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFA2E2C10A7E100815389 /* PortfolioContainer.xcdatamodeld */; };
 		FA1AFA322C10C90400815389 /* PortfolioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFA312C10C90400815389 /* PortfolioService.swift */; };
 		FA1AFA3D2C1330AA00815389 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFA3C2C1330A900815389 /* HapticManager.swift */; };
+		FA1AFA422C14D48300815389 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1AFA412C14D48300815389 /* DetailView.swift */; };
 		FA4E5E102C0F92D90021B2D8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E5E0F2C0F92D90021B2D8 /* Color.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,7 @@
 		FA1AFA2F2C10A7E100815389 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		FA1AFA312C10C90400815389 /* PortfolioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioService.swift; sourceTree = "<group>"; };
 		FA1AFA3C2C1330A900815389 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		FA1AFA412C14D48300815389 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FA443AEB2C10399200123BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4E5E0F2C0F92D90021B2D8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FA6FBED72BD8189900004A91 /* CryptoTrackerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTrackerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				FA18414B2C07A0D3004E8047 /* Home */,
+				FA1AFA3E2C14D30000815389 /* Details */,
 				FA1841522C07A0D3004E8047 /* Portfolio */,
 			);
 			path = Core;
@@ -270,6 +273,30 @@
 			path = "CryptoTrackerSwiftUI/Preview Content";
 			sourceTree = SOURCE_ROOT;
 		};
+		FA1AFA3E2C14D30000815389 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				FA1AFA3F2C14D31500815389 /* ViewModel */,
+				FA1AFA402C14D32100815389 /* Views */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		FA1AFA3F2C14D31500815389 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA1AFA402C14D32100815389 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA1AFA412C14D48300815389 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FA6FBECE2BD8189900004A91 = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +400,7 @@
 				FA18417F2C07A0D4004E8047 /* HomeView.swift in Sources */,
 				FA18419C2C07A0D4004E8047 /* MaketDataService.swift in Sources */,
 				FA18417E2C07A0D4004E8047 /* HomeViewModel.swift in Sources */,
+				FA1AFA422C14D48300815389 /* DetailView.swift in Sources */,
 				FA1AFA3D2C1330AA00815389 /* HapticManager.swift in Sources */,
 				FA18419A2C07A0D4004E8047 /* CoinDataService.swift in Sources */,
 				FA1841BA2C07BBE6004E8047 /* StatisticView.swift in Sources */,
