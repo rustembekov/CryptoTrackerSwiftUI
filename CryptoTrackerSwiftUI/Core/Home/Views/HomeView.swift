@@ -33,7 +33,7 @@ struct HomeView : View {
                         .transition(.move(edge: .leading))
                 }
                 
-                if showPortfolio{ю
+                if showPortfolio{
                     portfolioCoinsList
                         .transition(.move(edge: .trailing))
                 }
@@ -43,7 +43,7 @@ struct HomeView : View {
         }
         .background(
             NavigationLink(
-                destination: DetailView(coin: $selectedCoin),
+                destination: DownloadingDetailView(coin: $selectedCoin),
                 isActive: $showDetailView,
                 label:{ EmptyView() }
             )
