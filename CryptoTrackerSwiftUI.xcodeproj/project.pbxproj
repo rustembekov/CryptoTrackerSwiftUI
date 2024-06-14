@@ -44,6 +44,7 @@
 		FA722D402C19C053001B7CB1 /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA722D3F2C19C053001B7CB1 /* CoinDetailDataService.swift */; };
 		FA722D422C19C82A001B7CB1 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA722D412C19C82A001B7CB1 /* DetailViewModel.swift */; };
 		FA722D442C1B5F76001B7CB1 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA722D432C1B5F76001B7CB1 /* ChartView.swift */; };
+		FA722D462C1B7D0B001B7CB1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA722D452C1B7D0B001B7CB1 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -99,6 +100,7 @@
 		FA722D3F2C19C053001B7CB1 /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 		FA722D412C19C82A001B7CB1 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		FA722D432C1B5F76001B7CB1 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		FA722D452C1B7D0B001B7CB1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 				FA1841652C07A0D3004E8047 /* PreviewProvider.swift */,
 				FA1841662C07A0D3004E8047 /* Double.swift */,
 				FA4E5E0F2C0F92D90021B2D8 /* Color.swift */,
+				FA722D452C1B7D0B001B7CB1 /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				FA18418B2C07A0D4004E8047 /* StatisticModel.swift in Sources */,
 				FA1841862C07A0D4004E8047 /* CoinLogoView.swift in Sources */,
 				FA1841812C07A0D4004E8047 /* HomeStatsView.swift in Sources */,
+				FA722D462C1B7D0B001B7CB1 /* Date.swift in Sources */,
 				FA1841822C07A0D4004E8047 /* PortfolioViewModel.swift in Sources */,
 				FA1841882C07A0D4004E8047 /* CoinImageView.swift in Sources */,
 				FA1841912C07A0D4004E8047 /* NetworkingManager.swift in Sources */,
