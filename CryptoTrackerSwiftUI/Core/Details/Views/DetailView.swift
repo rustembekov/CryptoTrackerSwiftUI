@@ -18,6 +18,7 @@ struct DownloadingDetailView: View {
 
 struct DetailView: View {
     @StateObject var vm: DetailViewModel
+    @State var showFullTextDescription: Bool = false
     
     private let columns: [GridItem] = [
         GridItem(.flexible()),
@@ -38,15 +39,12 @@ struct DetailView: View {
                 VStack(spacing: 20){
                     overviewTitle
                     Divider()
-                    ZStack {
-                        if let description = vm.descriptionCoinDetails, !description.isEmpty {
-                            Text(description)
-                        }
-                    }
+                    descriptionSection
                     overviewGrid
                     additionalTitle
                     Divider()
                     additionalGrid
+                    websiteSection
                 }
                 .padding()
             }
@@ -78,6 +76,32 @@ extension DetailView {
                 .frame(width: 25, height: 25)
                 
         }
+    }
+    
+    private var descriptionSection: some View {
+        ZStack {
+            VStack(alignment: .leading) {
+                if let description = vm.descriptionCoinDetails, !description.isEmpty {
+                    Text(description)
+                        .font(.callout)
+                        .foregroundColor(Color.theme.secondaryText)
+                        .lineLimit(showFullTextDescription ? nil : 3)
+                }
+                Button(action: {
+                    withAnimation(.easeInOut) {
+                        showFullTextDescription.toggle()
+                    }
+                }, label: {
+                    Text(showFullTextDescription ? "Hide" : "Show more...")
+                        .font(.caption)
+                        .bold()
+                        .padding(.vertical, 4)
+                })
+                .foregroundColor(.blue)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+
     }
     
     private var overviewTitle: some View {
@@ -122,5 +146,22 @@ extension DetailView {
                     StatisticView(stat: stats)
                 }
             })
+    }
+    
+    private var websiteSection: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            if let websiteURL = vm.websiteURL,
+               let url = URL(string: websiteURL) {
+                Link("Website URL", destination: url)
+            }
+            if let redditURL = vm.redditURL,
+               let url = URL(string: redditURL) {
+                Link("Reddit URL", destination: url)
+            }
+            
+        }
+        .tint(.blue)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .font(.headline)
     }
 }
