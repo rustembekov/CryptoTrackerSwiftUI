@@ -45,6 +45,7 @@
 		FA722D422C19C82A001B7CB1 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA722D412C19C82A001B7CB1 /* DetailViewModel.swift */; };
 		FA722D442C1B5F76001B7CB1 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA722D432C1B5F76001B7CB1 /* ChartView.swift */; };
 		FA722D462C1B7D0B001B7CB1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA722D452C1B7D0B001B7CB1 /* Date.swift */; };
+		FA722D482C1C5723001B7CB1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA722D472C1C5723001B7CB1 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -101,6 +102,7 @@
 		FA722D412C19C82A001B7CB1 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		FA722D432C1B5F76001B7CB1 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		FA722D452C1B7D0B001B7CB1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		FA722D472C1C5723001B7CB1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 				FA1841662C07A0D3004E8047 /* Double.swift */,
 				FA4E5E0F2C0F92D90021B2D8 /* Color.swift */,
 				FA722D452C1B7D0B001B7CB1 /* Date.swift */,
+				FA722D472C1C5723001B7CB1 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				FA1841982C07A0D4004E8047 /* SearchBarView.swift in Sources */,
 				FA1841892C07A0D4004E8047 /* CoinModel.swift in Sources */,
 				FA1AFA322C10C90400815389 /* PortfolioService.swift in Sources */,
+				FA722D482C1C5723001B7CB1 /* String.swift in Sources */,
 				FA1841942C07A0D4004E8047 /* CircleButtonAnimationView.swift in Sources */,
 				FA1841802C07A0D4004E8047 /* CoinRowView.swift in Sources */,
 				FA1841932C07A0D4004E8047 /* CircleButtonView.swift in Sources */,

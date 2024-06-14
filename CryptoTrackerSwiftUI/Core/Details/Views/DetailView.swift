@@ -18,6 +18,7 @@ struct DownloadingDetailView: View {
 
 struct DetailView: View {
     @StateObject var vm: DetailViewModel
+    
     private let columns: [GridItem] = [
         GridItem(.flexible()),
         GridItem(.flexible())
@@ -37,6 +38,11 @@ struct DetailView: View {
                 VStack(spacing: 20){
                     overviewTitle
                     Divider()
+                    ZStack {
+                        if let description = vm.descriptionCoinDetails, !description.isEmpty {
+                            Text(description)
+                        }
+                    }
                     overviewGrid
                     additionalTitle
                     Divider()
