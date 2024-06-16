@@ -13,6 +13,9 @@ struct LaunchView: View {
     @State private var showLoadingText: Bool = false
     private let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
     @State private var counter: Int = 0
+    @State private var loops: Int = 0
+    @Binding var showLoadingLaunchScreen: Bool
+    
     
     var body: some View {
         ZStack {
@@ -42,7 +45,16 @@ struct LaunchView: View {
         }
         .onReceive(timer, perform: { _ in
             withAnimation(.spring()){
+                let lastIndex = loadingText.count
+                if counter == lastIndex {
+                    counter = 0
+                    loops += 1
+                    if loops >= 2 {
+                        showLoadingLaunchScreen = false
+                    }
+                } else {
                 counter += 1
+                }
             }
         })
     }
@@ -50,6 +62,6 @@ struct LaunchView: View {
 
 struct LaunchView_Previews: PreviewProvider {
     static var previews: some View {
-        LaunchView()
+        LaunchView(showLoadingLaunchScreen: .constant(true))
     }
 }
