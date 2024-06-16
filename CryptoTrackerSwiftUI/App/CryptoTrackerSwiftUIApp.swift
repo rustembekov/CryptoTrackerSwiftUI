@@ -18,11 +18,15 @@ struct CryptoTrackerSwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                HomeView()
-                .preferredColorScheme(.dark)
-                .navigationBarHidden(true)
-            }.environmentObject(vm)
+            ZStack{
+                NavigationView {
+                    HomeView()
+                    .preferredColorScheme(.dark)
+                    .navigationBarHidden(true)
+                }
+                .environmentObject(vm)
+                LaunchView()
+            }
         }
     }
 }
