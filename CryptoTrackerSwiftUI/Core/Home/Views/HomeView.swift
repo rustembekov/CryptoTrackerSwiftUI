@@ -119,8 +119,8 @@ extension HomeView{
                     .listRowInsets(.init(top: 10, leading: 0, bottom: 0, trailing: 10))
                     .onTapGesture {
                         segue(coin: coin)
-                        
                     }
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(PlainListStyle())
