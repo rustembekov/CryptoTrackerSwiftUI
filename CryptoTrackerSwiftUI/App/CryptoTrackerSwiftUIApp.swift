@@ -22,9 +22,9 @@ struct CryptoTrackerSwiftUIApp: App {
             ZStack{
                 NavigationView {
                     HomeView()
-                    .preferredColorScheme(.dark)
                     .navigationBarHidden(true)
                 }
+                .navigationViewStyle(StackNavigationViewStyle())
                 .environmentObject(vm)
                 ZStack {
                     if showLoadingLaunchView {
